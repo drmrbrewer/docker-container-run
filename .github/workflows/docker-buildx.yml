@@ -46,7 +46,7 @@ jobs:
         with:
           # what tags to apply to the generated image:
           # the images will be pushed to: https://hub.docker.com/repository/docker/drmrbrewer/docker-container-run/general
-          tags: drmrbrewer/docker-container-run,drmrbrewer/docker-container-run:v5
+          tags: drmrbrewer/docker-container-run,drmrbrewer/docker-container-run:v6
           # commented out for now as the docker image seems to be much smaller without it...
           #   context: .
           # this is a multi-platform build... specify required platforms here:
